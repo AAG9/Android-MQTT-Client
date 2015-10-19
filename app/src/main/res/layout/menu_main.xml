@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f37373">
+
+
+    <Switch
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="Connect!"
+        android:textSize="30px"
+        android:id="@+id/connectSwitch"
+        android:layout_gravity="right"
+        android:checked="false"
+        android:textColor="#090808"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp" />
+</RelativeLayout>
